@@ -1,4 +1,4 @@
 /cmake-build-debug/
 /.idea
 CMakeLists.txt
-.gitignore
+.gitignore!/algorithm/P0004.cpp
