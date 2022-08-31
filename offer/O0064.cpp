@@ -5,8 +5,7 @@
  * Description: 剑指 Offer 64. 求1+2+…+n
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
 
 using namespace std;
 

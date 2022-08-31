@@ -5,8 +5,8 @@
  * Description: 1929. 数组串联
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 

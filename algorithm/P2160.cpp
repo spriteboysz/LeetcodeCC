@@ -5,9 +5,9 @@
  * Description: 2160. 拆分数位后四位数字的最小和
  */
 
-# include <iostream>
-# include <vector>
-# include <algorithm>
+#include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 

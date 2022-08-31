@@ -5,8 +5,8 @@
  * Description: 1689. 十-二进制数的最少数目
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 

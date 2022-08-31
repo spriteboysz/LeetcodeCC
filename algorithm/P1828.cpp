@@ -5,9 +5,9 @@
  * Description: 1828. 统计一个圆中点的数目
  */
 
-# include <iostream>
-# include <vector>
-# include <cmath>
+#include <iostream>
+#include <vector>
+#include <cmath>
 
 using namespace std;
 

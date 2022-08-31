@@ -5,8 +5,7 @@
  * Description: 剑指 Offer 58 - II. 左旋转字符串
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
 
 using namespace std;
 

@@ -5,8 +5,7 @@
  * Description: 771. 宝石与石头
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
 #include <algorithm>
 
 using namespace std;

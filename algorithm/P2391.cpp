@@ -5,8 +5,8 @@
  * Description: 2391. 收集垃圾的最少总时间
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 

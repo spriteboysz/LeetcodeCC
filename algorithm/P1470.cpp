@@ -5,8 +5,8 @@
  * Description: 1470. 重新排列数组
  */
 
-# include <iostream>
-# include <vector>
+#include <iostream>
+#include <vector>
 
 using namespace std;
 
