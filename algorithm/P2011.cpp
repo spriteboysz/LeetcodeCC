@@ -2,7 +2,7 @@
  * Author: Deean
  * Date: 2022-08-30 23:40
  * FileName: algorithm/P2011.cpp
- * Description: 
+ * Description: 2011. 执行操作后的变量值
  */
 
 # include <iostream>
