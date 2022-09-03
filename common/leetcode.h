@@ -13,6 +13,7 @@
 #include <cstring>
 #include <cmath>
 #include <iostream>
+#include <algorithm>
 #include <vector>
 #include <string>
 #include <map>
