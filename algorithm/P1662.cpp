@@ -7,7 +7,6 @@
 
 #include <iostream>
 #include <vector>
-#include <codec.h>
 
 using namespace std;
 
