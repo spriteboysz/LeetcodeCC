@@ -21,7 +21,7 @@ struct TreeNode {
 
 string nilToken = "null";
 
-TreeNode *deserialize(string str) {
+TreeNode *stringToTree(string str) {
     auto v = stringToVector(str);
     if (v.empty()) return NULL;
     queue<TreeNode *> q;
@@ -38,7 +38,7 @@ TreeNode *deserialize(string str) {
     return root;
 }
 
-string serialize(TreeNode *root) {
+string treeToString(TreeNode *root) {
     vector<string> v;
     if (!root) return vectorToString(v);
     queue<TreeNode *> q;
