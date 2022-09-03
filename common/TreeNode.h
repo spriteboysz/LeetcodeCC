@@ -2,11 +2,12 @@
 // Created by Deean on 2022-08-31.
 //
 // Definition for a binary tree node.
-#include <string>
-#include <iostream>
+#ifndef tree_node_h
+#define tree_node_h
+
 #include <queue>
-#include <algorithm>
-#include <sstream>
+#include <string>
+#include <codec.h>
 
 using namespace std;
 
@@ -15,55 +16,45 @@ struct TreeNode {
     TreeNode *left;
     TreeNode *right;
 
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-
-    TreeNode(string input){
-        trimLeftTrailingSpaces(input);
-        trimRightTrailingSpaces(input);
-        input = input.substr(1, input.length() - 2);
-        if (!input.size()) {
-            return nullptr;
-        }
-
-        string item;
-        stringstream ss;
-        ss.str(input);
-
-        getline(ss, item, ',');
-        TreeNode* root = new TreeNode(stoi(item));
-        queue<TreeNode*> nodeQueue;
-        nodeQueue.push(root);
-
-        while (true) {
-            TreeNode* node = nodeQueue.front();
-            nodeQueue.pop();
-
-            if (!getline(ss, item, ',')) {
-                break;
-            }
-
-            trimLeftTrailingSpaces(item);
-            if (item != "null") {
-                int leftNumber = stoi(item);
-                node->left = new TreeNode(leftNumber);
-                nodeQueue.push(node->left);
-            }
-
-            if (!getline(ss, item, ',')) {
-                break;
-            }
-
-            trimLeftTrailingSpaces(item);
-            if (item != "null") {
-                int rightNumber = stoi(item);
-                node->right = new TreeNode(rightNumber);
-                nodeQueue.push(node->right);
-            }
-        }
-        return root;
-    }
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+
+string nilToken = "null";
+
+TreeNode *deserialize(string str) {
+    auto v = stringToVector(str);
+    if (v.empty()) return NULL;
+    queue<TreeNode *> q;
+    auto root = new TreeNode(stoi(v[0]));
+    q.push(root);
+    for (int i = 1, N = v.size(); i < N;) {
+        auto node = q.front();
+        q.pop();
+        if (v[i] != nilToken) q.push(node->left = new TreeNode(stoi(v[i])));
+        ++i;
+        if (i < N && v[i] != nilToken) q.push(node->right = new TreeNode(stoi(v[i])));
+        ++i;
+    }
+    return root;
+}
+
+string serialize(TreeNode *root) {
+    vector<string> v;
+    if (!root) return vectorToString(v);
+    queue<TreeNode *> q;
+    q.push(root);
+    while (q.size()) {
+        root = q.front();
+        q.pop();
+        if (root) {
+            v.push_back(to_string(root->val));
+            q.push(root->left);
+            q.push(root->right);
+        } else v.push_back(nilToken);
+
+    }
+    while (v.back() == nilToken) v.pop_back();
+    return vectorToString(v);
+}
+
+#endif
