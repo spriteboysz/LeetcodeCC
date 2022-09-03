@@ -1,7 +1,10 @@
-//
-// Created by Deean on 2022-08-31.
-//
-// Definition for a binary tree node.
+/**
+ * Author: Deean
+ * Date: 2022-09-03 08:34
+ * FileName: common/TreeNode.h
+ * Description: TreeNode
+ */
+
 #ifndef tree_node_h
 #define tree_node_h
 

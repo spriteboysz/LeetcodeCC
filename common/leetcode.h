@@ -1,26 +1,27 @@
 /**
  * Author: Deean
  * Date: 2022-09-03 08:33
- * FileName: common/lib.h
- * Description: 
+ * FileName: common/leetcode.h
+ * Description: leetcode.h
  */
 
-#ifndef lib_h
-#define lib_h
+#ifndef leetcode_h
+#define leetcode_h
 
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
+#include <cmath>
 #include <iostream>
 #include <vector>
 #include <string>
 #include <map>
 #include <unordered_map>
 #include <set>
-#include <stack>
 #include <unordered_set>
-#include "codec.h"
-#include "TreeNode.h"
+#include <stack>
+#include <queue>
+#include <codec.h>
 
 using namespace std;
 #define CASET int ___T, case_n = 1; scanf("%d ", &___T); while (___T-- > 0)
