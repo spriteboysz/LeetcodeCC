@@ -25,5 +25,6 @@ public:
 int main() {
     auto ans = Solution().invertTree(stringToTree("[4,2,7,1,3,6,9]"));
     cout << treeToString(ans) << endl;
+    cout << toString(ans) << endl;
     return 0;
 }

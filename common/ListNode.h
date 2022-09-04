@@ -48,4 +48,8 @@ string listToString(ListNode *node) {
     return "[" + result.substr(0, result.length() - 2) + "]";
 }
 
+string toString(ListNode *node) {
+    return listToString(node);
+}
+
 #endif

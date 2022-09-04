@@ -65,4 +65,8 @@ string treeToString(TreeNode *root) {
     return vectorToString(v);
 }
 
+string toString(TreeNode *root) {
+    return treeToString(root);
+}
+
 #endif
