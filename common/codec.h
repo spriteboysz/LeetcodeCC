@@ -40,7 +40,7 @@ vector<string> stringToVector(string str) {
     return ans;
 }
 
-vector<int> stringToIntVector(string str) {
+vector<int> stringToIntegerVector(string str) {
     str = str.substr(1, str.size() - 2);
     istringstream ss(str);
     string token;
