@@ -19,7 +19,11 @@ struct TreeNode {
     TreeNode *left;
     TreeNode *right;
 
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
 string nilToken = "null";
@@ -27,15 +31,15 @@ string nilToken = "null";
 TreeNode *stringToTree(string str) {
     auto v = stringToVector(str);
     if (v.empty()) return NULL;
-    queue<TreeNode *> q;
+    queue<TreeNode *> queue;
     auto root = new TreeNode(stoi(v[0]));
-    q.push(root);
+    queue.push(root);
     for (int i = 1, N = v.size(); i < N;) {
-        auto node = q.front();
-        q.pop();
-        if (v[i] != nilToken) q.push(node->left = new TreeNode(stoi(v[i])));
+        auto node = queue.front();
+        queue.pop();
+        if (v[i] != nilToken) queue.push(node->left = new TreeNode(stoi(v[i])));
         ++i;
-        if (i < N && v[i] != nilToken) q.push(node->right = new TreeNode(stoi(v[i])));
+        if (i < N && v[i] != nilToken) queue.push(node->right = new TreeNode(stoi(v[i])));
         ++i;
     }
     return root;
@@ -44,17 +48,18 @@ TreeNode *stringToTree(string str) {
 string treeToString(TreeNode *root) {
     vector<string> v;
     if (!root) return vectorToString(v);
-    queue<TreeNode *> q;
-    q.push(root);
-    while (q.size()) {
-        root = q.front();
-        q.pop();
+    queue<TreeNode *> queue;
+    queue.push(root);
+    while (queue.size()) {
+        root = queue.front();
+        queue.pop();
         if (root) {
             v.push_back(to_string(root->val));
-            q.push(root->left);
-            q.push(root->right);
-        } else v.push_back(nilToken);
-
+            queue.push(root->left);
+            queue.push(root->right);
+        } else {
+            v.push_back(nilToken);
+        }
     }
     while (v.back() == nilToken) v.pop_back();
     return vectorToString(v);
