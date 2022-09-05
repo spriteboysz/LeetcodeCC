@@ -31,6 +31,26 @@ string vectorToString(vector<T> v) {
     return ans.str();
 }
 
+template<typename T>
+string vector2ToString(vector<vector<T>> v) {
+    ostringstream ans;
+    ans << "[" << endl;
+    for (int i = 0; i < v.size(); ++i) {
+        auto &row = v[i];
+        ans << "[";
+        for (int j = 0; j < row.size(); ++j) {
+            auto &val = row[j];
+            ans << val;
+            if (j < row.size() - 1) ans << ", ";
+        }
+        ans << "]";
+        if (i < v.size() - 1) ans << ", ";
+        ans << endl;
+    }
+    ans << "]" << endl;
+    return ans.str();
+}
+
 vector<string> stringToVector(string str) {
     str = str.substr(1, str.size() - 2);
     istringstream ss(str);
@@ -93,5 +113,29 @@ vector<vector<int>> readVector() {
     cin.get(); // outer ]
     return ans;
 }
+
+// 重载toString方法
+template<typename T>
+string toString(vector<vector<T>> v) {
+    return vector2ToString(v);
+}
+
+template<typename T>
+string toString(vector<T> v) {
+    return vectorToString(v);
+}
+
+string toString(int num) {
+    return to_string(num);
+}
+
+string toString(const char *s) {
+    return s;
+}
+
+string toString(bool b) {
+    return b == 0 ? "false" : "true";
+}
+
 
 #endif
