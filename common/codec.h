@@ -129,7 +129,7 @@ string toString(int num) {
     return to_string(num);
 }
 
-string toString(const char *s) {
+string toString(const string &s) {
     return s;
 }
 
