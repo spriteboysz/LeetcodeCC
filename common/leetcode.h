@@ -22,7 +22,10 @@
 #include <unordered_set>
 #include <stack>
 #include <queue>
+#include <deque>
 #include <codec.h>
+#include "TreeNode.h"
+#include "ListNode.h"
 
 using namespace std;
 #define CASET int ___T, case_n = 1; scanf("%d ", &___T); while (___T-- > 0)
