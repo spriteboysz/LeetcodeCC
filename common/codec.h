@@ -20,10 +20,9 @@ void _R(T &x) { cin >> x; }
 
 template<typename T>
 string vectorToString(vector<T> v) {
-    auto i = v.begin();
     ostringstream ans;
     ans << "[";
-    for (; i != v.end(); ++i) {
+    for (auto i = v.begin(); i != v.end(); ++i) {
         ans << *i;
         if (i + 1 != v.end()) ans << ",";
     }
@@ -37,7 +36,7 @@ string vector2ToString(vector<vector<T>> v) {
     ans << "[" << endl;
     for (int i = 0; i < v.size(); ++i) {
         auto &row = v[i];
-        ans << "[";
+        ans << " " << "[";
         for (int j = 0; j < row.size(); ++j) {
             auto &val = row[j];
             ans << val;
@@ -127,6 +126,11 @@ string toString(vector<T> v) {
 
 string toString(int num) {
     return to_string(num);
+}
+
+string toString(char c) {
+    string ss = "";
+    return ss + c;
 }
 
 string toString(const string &s) {
