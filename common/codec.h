@@ -124,8 +124,9 @@ string toString(vector<T> v) {
     return vectorToString(v);
 }
 
-string toString(int num) {
-    return to_string(num);
+template<typename T>
+string toString(T t) {
+    return to_string(t);
 }
 
 string toString(char c) {
