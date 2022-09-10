@@ -67,10 +67,7 @@ vector<T> stringToVector(string s) {
     vector<T> vec;
     T item;
     for (int i = 1; i <= cnt; i++) {
-        if (!(iss >> item)) {
-            break;
-        }
-        vec.push_back(item);
+        if (iss >> item) vec.push_back(item);
     }
     return vec;
 }
