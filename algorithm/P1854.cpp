@@ -29,9 +29,8 @@ public:
 };
 
 int main() {
-    vector<vector<int>> logs = {{1950, 1961},
-                                {1960, 1971},
-                                {1970, 1981}};
+    vector<vector<int>> logs = stringToVector2("[[1950,1961],[1960,1971],[1970,1981]]");
+    cout << vector2ToString(logs) << endl;
     auto ans = Solution().maximumPopulation(logs);
     cout << toString(ans) << endl;
     return 0;

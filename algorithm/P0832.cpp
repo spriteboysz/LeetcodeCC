@@ -33,6 +33,6 @@ int main() {
                                  {0, 1, 1, 1},
                                  {1, 0, 1, 0}};
     auto ans = Solution().flipAndInvertImage(image);
-    printVector(ans);
+    cout << vector2ToString(ans) << endl;
     return 0;
 }

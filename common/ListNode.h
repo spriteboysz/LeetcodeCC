@@ -23,7 +23,7 @@ struct ListNode {
 
 ListNode *stringToList(string str) {
     // Generate list from the input
-    vector<int> list = stringToIntegerVector(str);
+    vector<int> list = stringToVector(str);
 
     // Now convert that list into linked list
     ListNode *dummyRoot = new ListNode(0);

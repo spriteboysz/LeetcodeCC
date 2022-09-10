@@ -29,7 +29,7 @@ struct TreeNode {
 string nilToken = "null";
 
 TreeNode *stringToTree(string str) {
-    auto v = stringToVector(str);
+    auto v = stringToVector<string>(str);
     if (v.empty()) return NULL;
     queue<TreeNode *> queue;
     auto root = new TreeNode(stoi(v[0]));
