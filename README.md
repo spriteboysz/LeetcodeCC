@@ -1,0 +1,3 @@
+# LeetcodeCC
+
+Learn C++ from Leetcode, keep going...
