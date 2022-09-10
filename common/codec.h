@@ -2,7 +2,7 @@
  * Author: Deean
  * Date: 2022-09-03 08:34
  * FileName: common/codec.h
- * Description:  * FileName: common/codec.h
+ * Description: common head files
  */
 
 #ifndef codec_h
@@ -16,23 +16,23 @@
 using namespace std;
 
 template<typename T>
-string vectorToString(vector<T> v) {
+string vectorToString(vector<T> vec) {
     ostringstream ss;
     ss << "[";
-    for (auto i = v.begin(); i != v.end(); ++i) {
+    for (auto i = vec.begin(); i != vec.end(); ++i) {
         ss << *i;
-        if (i + 1 != v.end()) ss << ", ";
+        if (i + 1 != vec.end()) ss << ", ";
     }
     ss << "]";
     return ss.str();
 }
 
 template<typename T>
-string vector2ToString(vector<vector<T>> v) {
+string vector2ToString(vector<vector<T>> vec) {
     ostringstream ss;
     ss << "[" << endl;
-    for (int i = 0; i < v.size(); ++i) {
-        auto &row = v[i];
+    for (int i = 0; i < vec.size(); ++i) {
+        auto &row = vec[i];
         ss << " " << "[";
         for (int j = 0; j < row.size(); ++j) {
             auto &val = row[j];
@@ -40,7 +40,7 @@ string vector2ToString(vector<vector<T>> v) {
             if (j < row.size() - 1) ss << ", ";
         }
         ss << "]";
-        if (i < v.size() - 1) ss << ", ";
+        if (i < vec.size() - 1) ss << ", ";
         ss << endl;
     }
     ss << "]" << endl;
@@ -100,9 +100,7 @@ vector<vector<T>> stringToVector2(string s) {
             }
             items.push_back(item);
         }
-        if (flag) {
-            vec.push_back(items);
-        }
+        if (flag) vec.push_back(items);
     }
     return vec;
 }

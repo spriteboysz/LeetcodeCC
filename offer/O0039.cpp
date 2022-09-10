@@ -27,7 +27,6 @@ public:
 };
 
 int main() {
-    //vector<int> nums = {1, 2, 3, 2, 2, 2, 5, 4, 2};
     vector<int> nums = stringToVector("[1, 2, 3, 2, 2, 2, 5, 4, 2]");
     cout << vectorToString(nums) << endl;
     auto ans = Solution().majorityElement(nums);
