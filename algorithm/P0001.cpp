@@ -26,7 +26,7 @@ public:
 };
 
 int main() {
-    vector<int> nums = stringToVector("[2,7,11,15]");
+    vector<int> nums = stringToVector("[2,7,11,15,31]");
     auto ans = Solution().twoSum(nums, 9);
     cout << toString(ans) << endl;
     return 0;
