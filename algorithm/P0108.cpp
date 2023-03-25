@@ -5,7 +5,7 @@
  * Description: 108. 将有序数组转换为二叉搜索树
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

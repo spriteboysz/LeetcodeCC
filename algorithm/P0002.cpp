@@ -5,7 +5,7 @@
  * Description: 2. 两数相加
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 
