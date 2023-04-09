@@ -5,7 +5,7 @@
  * Description: 111. 二叉树的最小深度
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

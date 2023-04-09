@@ -5,7 +5,7 @@
  * Description: 1. 两数之和
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 
