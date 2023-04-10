@@ -34,7 +34,7 @@ public:
 };
 
 int main() {
-    vector<int> gifts = {25, 64, 9, 4, 100};
+    vector<int> gifts = {25, 64, 9, 4, 100, 1};
     auto ans = Solution().pickGifts(gifts, 4);
     cout << toString(ans) << endl;
     return 0;
