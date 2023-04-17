@@ -1,29 +1,29 @@
 /**
  * Author: Deean
- * Date: 2022-09-04 10:21
- * FileName: algorithm/P1614.cpp
- * Description: 1614. 括号的最大嵌套深度
+ * Date: 2023-04-17 22:54
+ * FileName: 
+ * Description: 
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 
 class Solution {
 public:
     int maxDepth(string s) {
-        int maximum = 0, cur = 0;
-        for (auto c: s) {
-            if (c == '(') cur++;
-            else if (c == ')') cur--;
-            maximum = max(maximum, cur);
+        int maximum = 0, depth = 0;
+        for (char c: s) {
+            if (c == '(') depth++;
+            maximum = max(maximum, depth);
+            if (c == ')') depth--;
         }
         return maximum;
     }
 };
 
 int main() {
-    auto ans = Solution().maxDepth("(1)+((2))+(((3)))");
-    cout << ans << endl;
+    auto ans = Solution().maxDepth("(1+(2*3)+((8)/4))+1");
+    cout << toString(ans) << endl;
     return 0;
 }

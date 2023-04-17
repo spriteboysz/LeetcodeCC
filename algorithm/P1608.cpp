@@ -14,7 +14,7 @@ public:
     int specialArray(vector<int> &nums) {
         sort(nums.rbegin(), nums.rend());
         for (int i = 1, n = nums.size(); i <= n; ++i) {
-            if (nums[i] < i) {
+            if (nums[i - 1] >= i && (i == n || nums[i] < i)) {
                 return i;
             }
         }
