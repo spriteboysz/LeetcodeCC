@@ -1,33 +1,34 @@
 /**
  * Author: Deean
- * Date: 2022-09-09 23:03
- * FileName: offer/O0054.cpp
- * Description: 剑指 Offer 54. 二叉搜索树的第k大节点
+ * Date: 2023-04-29 14:53
+ * FileName: algorithm
+ * Description: 
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 
 class Solution {
-private:
-    vector<int> values;
 public:
+    vector<int> values;
+
     void dfs(TreeNode *root) {
         if (root == nullptr) return;
-        dfs(root->left);
-        values.push_back(root->val);
         dfs(root->right);
+        values.push_back(root->val);
+        dfs(root->left);
     }
 
     int kthLargest(TreeNode *root, int k) {
         dfs(root);
-        return values[values.size() - k];
+        return values[k - 1];
     }
 };
 
 int main() {
-    auto ans = Solution().kthLargest(stringToTree("[5,3,6,2,4,null,null,1]"), 3);
+    TreeNode *root = stringToTree("[5,3,6,2,4,null,null,1]");
+    auto ans = Solution().kthLargest(root, 3);
     cout << toString(ans) << endl;
     return 0;
 }
