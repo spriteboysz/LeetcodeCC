@@ -29,7 +29,7 @@ public:
             if (!value1.empty()) value1.pop();
             if (!value2.empty()) value2.pop();
             carry += a + b;
-            auto cur = new ListNode(carry % 10);
+            ListNode *cur = new ListNode(carry % 10);
             carry /= 10;
             cur->next = sum;
             sum = cur;
@@ -40,7 +40,7 @@ public:
 
 int main() {
     ListNode *l1 = stringToList("[7,2,4,3]");
-    ListNode *l2 = stringToList("[5,6,4]");
+    ListNode *l2 = stringToList("[5,6,7]");
     auto ans = Solution().addTwoNumbers(l1, l2);
     cout << toString(ans) << endl;
     return 0;
