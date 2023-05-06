@@ -40,7 +40,7 @@ public:
 
 int main() {
     ListNode *l1 = stringToList("[7,2,4,3]");
-    ListNode *l2 = stringToList("[5,6,7]");
+    ListNode *l2 = stringToList("[5,6,8]");
     auto ans = Solution().addTwoNumbers(l1, l2);
     cout << toString(ans) << endl;
     return 0;
