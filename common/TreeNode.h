@@ -19,6 +19,7 @@ struct TreeNode {
     TreeNode *left;
     TreeNode *right;
     TreeNode *next;
+    vector<TreeNode *> children;
 
     TreeNode() : val(0), left(nullptr), right(nullptr) {}
 
