@@ -34,10 +34,10 @@ string vector2ToString(vector<vector<T>> vec) {
     for (int i = 0; i < vec.size(); ++i) {
         auto &row = vec[i];
         ss << " " << "[";
-        for (int j = 0; j < row.top(); ++j) {
+        for (int j = 0; j < row.size(); ++j) {
             auto &val = row[j];
             ss << val;
-            if (j < row.top() - 1) ss << ", ";
+            if (j < row.size() - 1) ss << ", ";
         }
         ss << "]";
         if (i < vec.size() - 1) ss << ", ";
