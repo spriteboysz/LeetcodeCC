@@ -19,7 +19,7 @@ public:
     int ping(int t) {
         queue.push(t);
         while(queue.front() < t - 3000) queue.pop();
-        return queue.top();
+        return queue.size();
     }
 };
 
