@@ -1,8 +1,8 @@
 /**
  * Author: Deean
- * Date: 2023-07-15 23:13
- * FileName: interview
- * Description: 
+ * Date: 2023-07-16 11:47
+ * FileName: algorithm
+ * Description:1143. 最长公共子序列
  */
 
 #include "..\common\leetcode.h"
@@ -12,11 +12,11 @@ using namespace std;
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
-        int n = text1.size(), m = text2.size();
-        vector<vector<int>> dp(n + 1, vector<int>(m + 1));
-        for (int i = 1; i <= n; ++i) {
+        int m = text1.size(), n = text2.size();
+        vector<vector<int>> dp(m + 1, vector<int>(n + 1));
+        for (int i = 1; i <= m; ++i) {
             char c1 = text1.at(i - 1);
-            for (int j = 1; j <= m; ++j) {
+            for (int j = 1; j <= n; ++j) {
                 char c2 = text2.at(j - 1);
                 if (c1 == c2) {
                     dp[i][j] = dp[i - 1][j - 1] + 1;
@@ -25,7 +25,7 @@ public:
                 }
             }
         }
-        return dp[n][m];
+        return dp[m][n];
     }
 };
 
