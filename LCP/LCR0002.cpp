@@ -2,7 +2,7 @@
  * Author: Deean
  * Date: 2023-10-10 23:05
  * FileName: LCP
- * Description:
+ * Description:LCR 002. 二进制求和
  */
 
 #include "..\common\leetcode.h"
