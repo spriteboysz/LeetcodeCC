@@ -5,14 +5,14 @@
  * Description: 面试题 02.07. 链表相交
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        unordered_set<ListNode *> set;
+        unordered_set < ListNode * > set;
         ListNode *cur = headA;
         while (cur) {
             set.insert(cur);

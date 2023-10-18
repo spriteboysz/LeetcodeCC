@@ -5,15 +5,13 @@
  * Description: 面试题 16.01. 交换数字
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 
 class Solution {
 public:
-    vector<int> swapNumbers(vector<int>& numbers) {
+    vector<int> swapNumbers(vector<int> &numbers) {
         numbers[1] = numbers[0] ^ numbers[1];
         numbers[0] = numbers[0] ^ numbers[1];
         numbers[1] = numbers[0] ^ numbers[1];

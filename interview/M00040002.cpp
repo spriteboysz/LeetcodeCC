@@ -5,7 +5,7 @@
  * Description: 面试题 04.02. 最小高度树
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

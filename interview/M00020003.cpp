@@ -5,7 +5,7 @@
  * Description: 面试题 02.03. 删除中间节点
  */
 
-#include <ListNode.h>
+#include "..\common\ListNode.h"
 
 using namespace std;
 

@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <unordered_set>
-#include <TreeNode.h>
+#include "..\common\TreeNode.h"
 
 using namespace std;
 

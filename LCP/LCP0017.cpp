@@ -5,7 +5,7 @@
  * Description: LCP 17. 速算机器人
  */
 
-#include <leetcode.h>
+#include <iostream>
 
 using namespace std;
 

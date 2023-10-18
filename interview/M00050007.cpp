@@ -5,7 +5,7 @@
  * Description: 面试题 05.07. 配对交换
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

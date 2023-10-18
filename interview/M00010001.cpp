@@ -5,7 +5,7 @@
  * Description: 面试题 01.01. 判定字符是否唯一
  */
 
-#include <leetcode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 
