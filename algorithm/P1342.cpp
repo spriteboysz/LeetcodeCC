@@ -5,9 +5,7 @@
  * Description: 1342. 将数字变成 0 的操作次数
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

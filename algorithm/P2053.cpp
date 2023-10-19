@@ -5,7 +5,7 @@
  * Description: 2053. 数组中第 K 个独一无二的字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

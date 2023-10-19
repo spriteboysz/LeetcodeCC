@@ -5,7 +5,7 @@
  * Description: 1880. 检查某单词是否等于两单词之和
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

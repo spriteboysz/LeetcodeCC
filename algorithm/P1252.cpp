@@ -5,9 +5,7 @@
  * Description: 1252. 奇数值单元格的数目
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

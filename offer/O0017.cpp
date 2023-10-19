@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 17. 打印从1到最大的n位数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

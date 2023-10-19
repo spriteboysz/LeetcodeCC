@@ -5,7 +5,7 @@
  * Description: 100. 相同的树
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

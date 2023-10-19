@@ -5,7 +5,7 @@
  * Description: 110. 平衡二叉树
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

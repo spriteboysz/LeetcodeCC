@@ -5,7 +5,7 @@
  * Description: 1725. 可以形成最大正方形的矩形数目
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

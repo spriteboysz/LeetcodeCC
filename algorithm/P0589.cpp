@@ -5,7 +5,7 @@
  * Description: 589. N 叉树的前序遍历
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 52. 两个链表的第一个公共节点
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

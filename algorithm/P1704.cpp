@@ -5,7 +5,7 @@
  * Description: 1704. 判断字符串的两半是否相似
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

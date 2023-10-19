@@ -5,7 +5,7 @@
  * Description: 448. 找到所有数组中消失的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -6,7 +6,7 @@
  * Description: 876. 链表的中间结点
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

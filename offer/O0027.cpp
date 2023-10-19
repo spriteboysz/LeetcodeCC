@@ -5,8 +5,7 @@
  * Description: 剑指 Offer 27. 二叉树的镜像
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,10 +5,7 @@
  * Description: 2089. 找出数组排序后的目标下标
  */
 
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <codec.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

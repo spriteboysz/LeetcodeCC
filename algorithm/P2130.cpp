@@ -5,8 +5,7 @@
  * Description: 2130. 链表最大孪生和
  */
 
-#include <leetcode.h>
-#include <ListNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

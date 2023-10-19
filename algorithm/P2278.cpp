@@ -5,9 +5,7 @@
  * Description: 2278. 字母在字符串中的百分比
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

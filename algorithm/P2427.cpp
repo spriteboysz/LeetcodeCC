@@ -5,7 +5,7 @@
  * Description: 2427. 公因子的数目
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

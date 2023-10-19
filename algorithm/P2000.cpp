@@ -5,7 +5,7 @@
  * Description: 2000. 反转单词前缀
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

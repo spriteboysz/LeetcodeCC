@@ -5,7 +5,7 @@
  * Description: 1295. 统计位数为偶数的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

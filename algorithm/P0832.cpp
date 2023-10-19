@@ -5,9 +5,7 @@
  * Description: 832. 翻转图像
  */
 
-#include <vector>
-#include <algorithm>
-#include <codec.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

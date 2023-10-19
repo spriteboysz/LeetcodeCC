@@ -5,7 +5,7 @@
  * Description: 1021. 删除最外层的括号
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

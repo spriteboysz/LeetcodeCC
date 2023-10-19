@@ -5,7 +5,7 @@
  * Description: 657. 机器人能否返回原点
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

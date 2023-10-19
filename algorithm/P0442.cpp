@@ -5,7 +5,7 @@
  * Description: 442. 数组中重复的数据
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

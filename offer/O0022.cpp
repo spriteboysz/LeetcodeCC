@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 22. 链表中倒数第k个节点
  */
 
-#include <ListNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

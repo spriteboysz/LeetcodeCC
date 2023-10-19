@@ -5,7 +5,7 @@
  * Description: 1464. 数组中两元素的最大乘积
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,8 +5,7 @@
  * Description: 2331. 计算布尔二叉树的值
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

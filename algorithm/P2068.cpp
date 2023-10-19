@@ -5,7 +5,7 @@
  * Description: 2068. 检查两个字符串是否几乎相等
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

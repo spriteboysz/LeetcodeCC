@@ -5,7 +5,7 @@
  * Description: 2357. 使数组中所有元素都等于零
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

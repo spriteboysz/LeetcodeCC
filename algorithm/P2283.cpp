@@ -5,7 +5,7 @@
  * Description: 2283. 判断一个数的数字计数是否等于数位的值
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

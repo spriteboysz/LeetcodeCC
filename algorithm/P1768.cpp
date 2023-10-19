@@ -5,7 +5,7 @@
  * Description: 1768. 交替合并字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

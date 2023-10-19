@@ -5,8 +5,7 @@
  * Description: 1290. 二进制链表转整数
  */
 
-#include <leetcode.h>
-#include <ListNode.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1844. 将所有数字用字符替换
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

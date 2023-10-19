@@ -5,7 +5,7 @@
  * Description: 242. 有效的字母异位词
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

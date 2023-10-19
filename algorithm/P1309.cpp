@@ -5,7 +5,7 @@
  * Description: 1309. 解码字母到整数映射
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 136. 只出现一次的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 137. 只出现一次的数字 II
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

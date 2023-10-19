@@ -5,7 +5,7 @@
  * Description: 2057. 值相等的最小索引
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

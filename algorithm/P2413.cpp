@@ -5,7 +5,7 @@
  * Description: 2413. 最小偶倍数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

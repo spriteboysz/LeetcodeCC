@@ -5,7 +5,7 @@
  * Description: 1748. 唯一元素的和
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,8 +5,7 @@
  * Description: 144. 二叉树的前序遍历
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

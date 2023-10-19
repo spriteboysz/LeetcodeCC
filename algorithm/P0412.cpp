@@ -5,7 +5,7 @@
  * Description: 412. Fizz Buzz
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

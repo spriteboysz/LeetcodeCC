@@ -5,8 +5,7 @@
  * Description: 160. 相交链表
  */
 
-#include <leetcode.h>
-#include <ListNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

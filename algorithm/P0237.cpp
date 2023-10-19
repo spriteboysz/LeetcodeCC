@@ -5,8 +5,7 @@
  * Description: 237. 删除链表中的节点
  */
 
-#include <leetcode.h>
-#include <ListNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

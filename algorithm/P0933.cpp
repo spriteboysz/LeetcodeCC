@@ -5,8 +5,8 @@
  * Description: 933. 最近的请求次数
  */
 
-#include <iostream>
-#include <queue>
+#include "../common/leetcode.h"
+
 
 using namespace std;
 
@@ -19,7 +19,8 @@ public:
     int ping(int t) {
         queue.push(t);
         while (queue.front() < t - 3000) queue.pop();
-        return queue.top();
+        int x = queue.pop();
+        return x;
     }
 };
 

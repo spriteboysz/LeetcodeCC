@@ -5,7 +5,7 @@
  * Description: 1380. 矩阵中的幸运数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

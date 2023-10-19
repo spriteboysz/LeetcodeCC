@@ -5,8 +5,7 @@
  * Description: 938. 二叉搜索树的范围和
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

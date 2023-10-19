@@ -5,7 +5,7 @@
  * Description: 500. 键盘行
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1672. 最富有客户的资产总量
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

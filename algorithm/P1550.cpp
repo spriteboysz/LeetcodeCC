@@ -5,7 +5,7 @@
  * Description: 1550. 存在连续三个奇数的数组
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

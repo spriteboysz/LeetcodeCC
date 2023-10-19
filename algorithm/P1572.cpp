@@ -5,7 +5,7 @@
  * Description: 1572. 矩阵对角线元素的和
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 2390. 从字符串中移除星号
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

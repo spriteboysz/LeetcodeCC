@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 15. 二进制中1的个数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

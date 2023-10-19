@@ -5,7 +5,7 @@
  * Description: 1732. 找到最高海拔
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1822. 数组元素积的符号
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

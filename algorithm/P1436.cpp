@@ -5,10 +5,7 @@
  * Description: 1436. 旅行终点站
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
-#include <set>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

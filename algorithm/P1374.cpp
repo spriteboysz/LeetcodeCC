@@ -5,7 +5,7 @@
  * Description: 1374. 生成每种字符都是奇数个的字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

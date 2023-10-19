@@ -5,7 +5,7 @@
  * Description: 2119. 反转两次的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

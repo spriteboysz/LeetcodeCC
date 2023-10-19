@@ -5,7 +5,7 @@
  * Description: 1460. 通过翻转子数组使两个数组相等
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

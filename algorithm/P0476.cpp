@@ -5,7 +5,7 @@
  * Description: 476. 数字的补数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1619. 删除某些元素后的数组均值
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

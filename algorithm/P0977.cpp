@@ -5,7 +5,7 @@
  * Description: 977. 有序数组的平方
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

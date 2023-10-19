@@ -5,7 +5,7 @@
  * Description: 1302. 层数最深叶子节点的和
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

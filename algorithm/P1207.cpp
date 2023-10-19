@@ -5,7 +5,7 @@
  * Description: 1207. 独一无二的出现次数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

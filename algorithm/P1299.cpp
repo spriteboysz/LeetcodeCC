@@ -5,7 +5,7 @@
  * Description: 1299. 将每个元素替换为右侧最大元素
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

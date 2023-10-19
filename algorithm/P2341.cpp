@@ -5,10 +5,7 @@
  * Description: 2341. 数组能形成多少数对
  */
 
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <codec.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

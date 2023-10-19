@@ -5,7 +5,7 @@
  * Description: 1078. Bigram 分词
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

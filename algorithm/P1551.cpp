@@ -5,9 +5,7 @@
  * Description: 1551. 使数组中所有元素相等的最小操作数
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

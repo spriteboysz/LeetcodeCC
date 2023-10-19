@@ -5,7 +5,7 @@
  * Description: 561. 数组拆分
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

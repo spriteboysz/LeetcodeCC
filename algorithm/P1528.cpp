@@ -5,7 +5,7 @@
  * Description: 1528. 重新排列字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

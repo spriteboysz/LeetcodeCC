@@ -5,7 +5,7 @@
  * Description: 2124. 检查是否所有 A 都在 B 之前
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

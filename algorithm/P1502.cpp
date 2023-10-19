@@ -5,7 +5,7 @@
  * Description: 1502. 判断能否形成等差数列
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

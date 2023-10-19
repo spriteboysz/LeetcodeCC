@@ -5,7 +5,7 @@
  * Description: 2363. 合并相似的物品
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

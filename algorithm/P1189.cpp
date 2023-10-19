@@ -5,7 +5,7 @@
  * Description: 1189. “气球” 的最大数量
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

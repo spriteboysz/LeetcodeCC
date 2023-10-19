@@ -5,7 +5,7 @@
  * Description: 762. 二进制表示中质数个计算置位
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

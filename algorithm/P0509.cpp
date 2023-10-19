@@ -5,7 +5,7 @@
  * Description: 509. 斐波那契数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 191. 位1的个数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

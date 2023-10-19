@@ -5,7 +5,7 @@
  * Description: 344. 反转字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

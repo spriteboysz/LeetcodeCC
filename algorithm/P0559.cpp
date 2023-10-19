@@ -5,7 +5,7 @@
  * Description: 559. N 叉树的最大深度
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

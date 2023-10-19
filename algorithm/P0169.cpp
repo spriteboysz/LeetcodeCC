@@ -5,7 +5,7 @@
  * Description: 169. 多数元素
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

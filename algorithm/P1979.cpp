@@ -5,7 +5,7 @@
  * Description: 1979. 找出数组的最大公约数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

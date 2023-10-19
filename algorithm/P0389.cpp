@@ -5,7 +5,7 @@
  * Description: 389. 找不同
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 766. 托普利茨矩阵
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

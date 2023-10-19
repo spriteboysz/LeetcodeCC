@@ -5,9 +5,7 @@
  * Description: 2176. 统计数组中相等且可以被整除的数对
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

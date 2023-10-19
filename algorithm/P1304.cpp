@@ -5,7 +5,7 @@
  * Description: 1304. 和为零的 N 个不同整数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

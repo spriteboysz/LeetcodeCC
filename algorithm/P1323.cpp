@@ -5,7 +5,7 @@
  * Description: 1323. 6 和 9 组成的最大数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

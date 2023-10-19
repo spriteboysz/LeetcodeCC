@@ -5,7 +5,7 @@
  * Description: 2085. 统计出现过一次的公共字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

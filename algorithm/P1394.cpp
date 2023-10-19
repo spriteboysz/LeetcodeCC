@@ -5,7 +5,7 @@
  * Description: 1394. 找出数组中的幸运数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

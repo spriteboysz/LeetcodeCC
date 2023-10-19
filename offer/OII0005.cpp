@@ -5,7 +5,7 @@
  * Description: 剑指 Offer II 005. 单词长度的最大乘积
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

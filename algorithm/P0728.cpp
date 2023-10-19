@@ -5,7 +5,7 @@
  * Description: 728. 自除数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

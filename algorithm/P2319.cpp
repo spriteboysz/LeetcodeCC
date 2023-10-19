@@ -5,7 +5,7 @@
  * Description: 2319. 判断矩阵是否是一个 X 矩阵
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

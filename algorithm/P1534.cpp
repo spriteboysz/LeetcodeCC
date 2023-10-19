@@ -5,7 +5,7 @@
  * Description: 1534. 统计好三元组
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

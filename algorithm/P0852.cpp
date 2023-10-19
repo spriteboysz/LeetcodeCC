@@ -5,7 +5,7 @@
  * Description: 852. 山脉数组的峰顶索引
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

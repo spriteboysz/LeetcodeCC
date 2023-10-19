@@ -5,7 +5,7 @@
  * Description: 1967. 作为子字符串出现在单词中的字符串数目
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

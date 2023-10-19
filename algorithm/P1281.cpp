@@ -5,7 +5,7 @@
  * Description: 1281. 整数的各位积和之差
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

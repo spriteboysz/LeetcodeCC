@@ -5,8 +5,7 @@
  * Description: 226. 翻转二叉树
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

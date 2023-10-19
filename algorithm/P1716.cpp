@@ -5,7 +5,7 @@
  * Description: 1716. 计算力扣银行的钱
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 2180. 统计各位数字之和为偶数的整数个数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

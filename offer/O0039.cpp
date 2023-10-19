@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 39. 数组中出现次数超过一半的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

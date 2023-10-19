@@ -5,7 +5,7 @@
  * Description: 1305. 两棵二叉搜索树中的所有元素
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 #include <TreeNode.h>
 
 using namespace std;

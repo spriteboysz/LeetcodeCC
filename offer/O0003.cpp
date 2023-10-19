@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 03. 数组中重复的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

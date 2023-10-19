@@ -5,7 +5,7 @@
  * Description: 2169. 得到 0 的操作数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

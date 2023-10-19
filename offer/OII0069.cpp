@@ -5,7 +5,7 @@
  * Description: 剑指 Offer II 069. 山峰数组的顶部
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

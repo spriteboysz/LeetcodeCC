@@ -5,7 +5,7 @@
  * Description: 1332. 删除回文子序列
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

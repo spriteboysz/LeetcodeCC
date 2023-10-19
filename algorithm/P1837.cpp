@@ -5,7 +5,7 @@
  * Description: 1837. K 进制表示下的各位数字总和
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

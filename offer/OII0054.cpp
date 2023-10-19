@@ -5,7 +5,7 @@
  * Description: 剑指 Offer II 054. 所有大于等于节点的值之和
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 2185. 统计包含给定前缀的字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

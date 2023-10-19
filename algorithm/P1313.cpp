@@ -5,7 +5,7 @@
  * Description: 1313. 解压缩编码列表
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1046. 最后一块石头的重量
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

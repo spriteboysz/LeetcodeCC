@@ -5,7 +5,7 @@
  * Description: 1925. 统计平方和三元组的数目
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

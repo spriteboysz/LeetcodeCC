@@ -5,8 +5,7 @@
  * Description: 剑指 Offer 55 - I. 二叉树的深度
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

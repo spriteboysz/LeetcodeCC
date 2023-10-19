@@ -5,9 +5,7 @@
  * Description: 1480. 一维数组的动态和
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "..\common\leetcode.h"
 
 using namespace std;
 

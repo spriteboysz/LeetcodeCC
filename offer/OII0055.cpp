@@ -5,7 +5,7 @@
  * Description: 剑指 Offer II 055. 二叉搜索树迭代器
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

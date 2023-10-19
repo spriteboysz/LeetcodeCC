@@ -5,7 +5,7 @@
  * Description: 101. 对称二叉树
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

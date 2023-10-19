@@ -5,7 +5,7 @@
  * Description: 1160. 拼写单词
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

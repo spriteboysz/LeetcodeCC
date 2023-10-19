@@ -5,7 +5,7 @@
  * Description: 190. 颠倒二进制位
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

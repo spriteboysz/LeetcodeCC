@@ -5,7 +5,7 @@
  * Description: 349. 两个数组的交集
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

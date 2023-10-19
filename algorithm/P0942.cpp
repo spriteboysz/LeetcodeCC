@@ -5,7 +5,7 @@
  * Description: 942. 增减字符串匹配
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

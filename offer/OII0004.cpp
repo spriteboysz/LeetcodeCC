@@ -5,7 +5,7 @@
  * Description: 剑指 Offer II 004. 只出现一次的数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

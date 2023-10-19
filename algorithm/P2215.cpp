@@ -5,7 +5,7 @@
  * Description: 2215. 找出两数组的不同
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

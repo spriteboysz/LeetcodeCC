@@ -5,7 +5,7 @@
  * Description: 2224. 转化时间需要的最少操作数
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

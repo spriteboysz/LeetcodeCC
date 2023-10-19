@@ -5,7 +5,7 @@
  * Description: 415. 字符串相加
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

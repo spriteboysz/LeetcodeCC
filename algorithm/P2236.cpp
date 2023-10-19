@@ -5,8 +5,7 @@
  * Description: 2236. 判断根结点是否等于子结点之和
  */
 
-#include <leetcode.h>
-#include <TreeNode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1200. 最小绝对差
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

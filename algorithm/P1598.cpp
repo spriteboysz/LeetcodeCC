@@ -5,7 +5,7 @@
  * Description: 1598. 文件夹操作日志搜集器
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

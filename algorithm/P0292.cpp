@@ -5,7 +5,7 @@
  * Description: 292. Nim 游戏
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 剑指 Offer II 098. 路径的数目
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

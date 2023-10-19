@@ -5,7 +5,7 @@
  * Description: 2032. 至少在两个数组中出现的值
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 66. 加一
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

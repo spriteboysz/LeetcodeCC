@@ -5,7 +5,7 @@
  * Description: 剑指 Offer 57. 和为s的两个数字
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1791. 找出星型图的中心节点
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

@@ -5,7 +5,7 @@
  * Description: 1854. 人口最多的年份
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

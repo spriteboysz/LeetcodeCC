@@ -5,7 +5,7 @@
  * Description: 1827. 最少操作使数组递增
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

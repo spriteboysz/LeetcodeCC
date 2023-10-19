@@ -5,7 +5,7 @@
  * Description: 258. 各位相加
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

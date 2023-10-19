@@ -5,7 +5,7 @@
  * Description: 1678. 设计 Goal 解析器
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

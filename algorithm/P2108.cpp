@@ -5,7 +5,7 @@
  * Description: 2108. 找出数组中的第一个回文字符串
  */
 
-#include <leetcode.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 

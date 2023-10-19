@@ -5,9 +5,7 @@
  * Description: 1913. 两个数对之间的最大乘积差
  */
 
-#include <iostream>
-#include <vector>
-#include <codec.h>
+#include "../common/leetcode.h"
 
 using namespace std;
 
